@@ -311,12 +311,19 @@ template {
   display: none;
 }
 
-/* aclonica-regular - latin */
+/* fraunces-900 - latin */
 @font-face {
-  font-family: "Aclonica";
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/fraunces-v24-latin-900.woff2") format("woff2"), url("../fonts/fraunces-v24-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-regular - latin */
+@font-face {
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/aclonica-v18-latin-regular.woff2") format("woff2"), url("../fonts/aclonica-v18-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"), url("../fonts/barlow-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 html {
   -webkit-box-sizing: border-box;
@@ -354,12 +361,10 @@ img {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1440px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 :root {
@@ -367,5 +372,78 @@ img {
 }
 
 body {
-  font-family: "Aclonica";
+  font-family: "Fraunces";
+}
+
+.header-navigator__link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  color: #83888F;
+}
+
+.header__logo__img {
+  max-width: 325px;
+}
+
+.header-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 44px 80px;
+}
+
+.header_navigator__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-navigator_text + .header-navigator_text {
+  margin-left: 33px;
+}
+
+.site-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #F2F2F2;
+  z-index: 100;
+}
+
+@media screen and (max-width: 970px) {
+  .header-box {
+    padding: 44px 30px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .header-box {
+    padding: 44px 25px;
+    position: relative;
+  }
+  .header-navigator {
+    background-image: url(../../img/header-menu.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 15px;
+    margin-top: 10px;
+  }
+  .header__logo__img {
+    max-width: 238px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .header__logo__img {
+    max-width: 163px;
+  }
 }/*# sourceMappingURL=main.css.map */
