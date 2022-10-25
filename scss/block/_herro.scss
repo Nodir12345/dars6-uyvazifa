@@ -1,0 +1,79 @@
+.herro-box{
+  background-image: url(../../img/herro_img.png);
+ margin-top: 138px;
+ border-radius: 8px;
+ background-repeat: no-repeat;
+ padding: 116px 0;
+ padding-left: 85px;
+
+}
+.herro-title{
+  font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+font-family: $font;
+color: #FEFCF7;
+max-width: 493px;
+margin-bottom: 32px;
+}
+.herro-discribtion{
+  max-width: 445px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+opacity: 0.8;
+margin-bottom: 56px;
+}
+
+.button {
+  @include buttum;
+ 
+}
+@media screen and (max-width:950px) {
+  .herro-box{
+   background-position-x: right;
+   background-image:url(../../img/bigmap2.jpg) ;
+   background-size: cover;
+   padding-left: 35px;
+  }
+  .herro-title{
+    font-family: $font;
+    max-width: 369px;
+    font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FEFCF7;
+    }
+    .herro-discribtion{
+      font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FEFCF7;
+  opacity: 0.8;
+  max-width: 389px;
+  
+    }
+}
+
+@media screen and (max-width:530px) {
+  .herro-title{
+    font-family: $font;
+    font-weight: 900;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+color: #FEFCF7;
+max-width: 279px;
+    }
+    .herro-discribtion{
+      font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+opacity: 0.8;
+max-width: 279px;
+    }
+    
+}

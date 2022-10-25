@@ -1,0 +1,129 @@
+.how__title{
+  font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+font-family: $font;
+color: #83888F;
+padding-bottom: 80px;
+margin-left: 20px;
+}
+.how__line_content{
+  max-width: 760px;
+  height: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FDD6BA;
+  margin-bottom: 82px;
+margin-left: 20px;
+
+}
+.how__line{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #0E8784;
+}
+.how__content__title{
+  font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+font-family: $font;
+max-width: 255px;
+padding-bottom: 42px;
+}
+
+.how__content__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+max-width: 285px;
+color: #333D4B;
+}
+.how-title__list{
+  font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+font-family: $font;
+color: #FDD6BA;
+margin-bottom: 38px;
+}
+.how-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.how-box{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+@media screen and (max-width:1120px) {
+  .how__title{
+    font-size: 24px;
+
+    line-height: 32px;
+  }
+
+  .how__line_content{
+    max-width: 497px;
+  }
+  .how-content__list{
+    max-width: 223px;
+  }
+
+  .how__content__title{
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .how__content__text{
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .how-box{
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+}
+@media screen and (max-width:840px){
+.how-content{
+  flex-direction: column;
+}
+.how__content__title{
+  max-width: 327px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+margin: 50px 0;
+
+
+}
+
+.how-content__list{
+  max-width: 327px;
+}
+.how__content__text{
+ max-width: 327px;
+  height: 165px;
+  text-align: center;
+margin-bottom: 50px;
+
+}
+.how-title__list{
+  text-align: center;
+}
+.how-content{
+  padding: 0;
+  margin: 0;
+}
+
+
+}
+
+
+.button2{
+  @include buttum;
+  margin-top: 64px;
+  margin-left: 40px;
+  margin-bottom: 255px;
+}

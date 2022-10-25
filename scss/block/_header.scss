@@ -1,3 +1,4 @@
+
 .header-navigator__link{
   font-weight: 700;
 font-size: 12px;
@@ -11,7 +12,7 @@ color: #83888F;
 .header-box{
   @include flex;
   justify-content: space-between;
-  padding: 44px 80px;
+  padding: 44px 25px;
 
 } 
 .header_navigator__box{
@@ -27,15 +28,12 @@ color: #83888F;
   background-color: #F2F2F2;
  z-index: 100;
 }
-@media screen and (max-width:970px) {
-  .header-box{
-    padding: 44px 30px;
-  }
-}
-@media screen and (max-width:780px) {
+
+@media screen and (max-width:950px) {
   .header-box{
     padding: 44px 25px;
     position: relative;
+
   }
 .header-navigator{
   background-image: url(../../img/header-menu.svg);
@@ -49,7 +47,7 @@ color: #83888F;
     max-width: 238px;
   }
 }
-@media screen and (max-width:460px) {
+@media screen and (max-width:530px) {
   .header__logo__img{
     max-width: 163px;
   }

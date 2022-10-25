@@ -1,0 +1,162 @@
+.our_bg{
+  background-image: url("../../img/our-bg.png");
+  background-repeat: no-repeat;
+  height: 196px;
+  max-width: 1111px;
+  margin-top:80px;
+  background-size: contain;
+ background-position-x: right;
+ position: relative;
+ top: 70px;
+ left: 0px;
+ z-index: -1;
+ background-position: left top;
+ background-size: 100% auto;
+}
+.site-our-box{
+  padding-left: 80px;
+  position: relative;
+}
+.our_content{
+padding-right: 80px;
+}
+
+.our-block__img{
+max-width: 255px;
+
+top: 100px;
+}
+.our-block__title{
+  font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+text-align: center;
+margin: 0 auto;
+max-width: 255px;
+font-family: $font;
+margin-top: 51px;
+margin-bottom: 24px;
+}
+.our-block__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #333D4B;
+max-width: 255px;
+text-align: center;
+margin: 0 auto;
+}
+
+.our-block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-our-box{
+  padding-right: -50px;
+ 
+}
+
+@media screen and (max-width:1251px){
+  .our_bg{
+
+position: relative;
+top: 160px;
+  }
+  .our-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .our_content{
+    position: relative;
+    top: 40px;
+    left: -150px;
+
+  }
+  .our-text{
+    display: flex;
+    align-items: center;
+margin-bottom: 30px;
+  }
+  .our-block__title{
+   text-align: start;
+  margin: 0 auto;
+  max-width: 260px;
+  margin-bottom: 24px;
+  }
+  .our-block__text{
+  max-width: 282px;
+  text-align: start;
+  margin: 0 ;
+  font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+  }
+  .our_bg{
+    margin-left: 40px;
+  }
+  
+  .site-our-box{
+
+    margin-bottom: 500px;
+  }
+}
+
+@media screen and (max-width:930px){
+  .our_bg{
+
+position: relative;
+top: 200px;
+  }
+  .our-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-bottom: 30px;
+  }
+
+  .our-block__title{
+    text-align: center;
+   margin: 0 auto;
+   max-width: 260px;
+   margin-bottom: 24px;
+   }
+   .our-block__text{
+   max-width: 282px;
+   text-align: center;
+   }
+   .our_content{
+    margin-right: -80px;
+   }
+   .our_bg{
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+      }
+      .our-block{
+        padding: 0;
+      } 
+      .site-our-box{
+
+        margin-bottom: 500px;
+      }
+}
+
+@media screen and (max-width:410px){
+  .our_bg{
+position: relative;
+
+top: 250px;
+  }
+  .site-our-box{
+
+    margin-bottom: 500px;
+  }
+}
+
+

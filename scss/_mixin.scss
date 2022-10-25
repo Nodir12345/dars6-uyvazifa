@@ -16,3 +16,14 @@ color: #FEFCF7;
   display: flex;
   align-items: center;
 }
+@mixin buttum {
+  font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+font-family: $font;
+color: #FEFCF7;
+background-color: #66D2CF;
+border-radius: 6px;
+padding: 15px 31px;
+}
