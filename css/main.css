@@ -447,7 +447,7 @@ body {
   }
 }
 .herro-box {
-  background-image: url(../../img/herro_img.png);
+  background-image: url(../img/herro_img.png);
   margin-top: 138px;
   border-radius: 8px;
   background-repeat: no-repeat;
@@ -490,7 +490,7 @@ body {
 @media screen and (max-width: 950px) {
   .herro-box {
     background-position-x: right;
-    background-image: url(../../img/bigmap2.jpg);
+    background-image: url(../img/bigmap2.jpg);
     background-size: cover;
     padding-left: 35px;
   }
@@ -532,7 +532,7 @@ body {
   }
 }
 .our_bg {
-  background-image: url("../../img/our-bg.png");
+  background-image: url("../img/our-bg.png");
   background-repeat: no-repeat;
   height: 196px;
   max-width: 1111px;
@@ -783,7 +783,7 @@ body {
 
 .choose__inner-title::before {
   content: "";
-  background-image: url("../../img/choose-logo.png");
+  background-image: url("../img/choose-logo.png");
   background-repeat: no-repeat;
   width: 72px;
   height: 72px;
@@ -795,7 +795,7 @@ body {
 
 .choose__inner-title2::before {
   content: "";
-  background-image: url("../../img/choose-loggo2.png");
+  background-image: url("../img/choose-loggo2.png");
   background-repeat: no-repeat;
   width: 72px;
   height: 72px;
@@ -807,7 +807,7 @@ body {
 
 .choose__inner-title3::before {
   content: "";
-  background-image: url("../../img/choose-loggo3.png");
+  background-image: url("../img/choose-loggo3.png");
   background-repeat: no-repeat;
   width: 72px;
   height: 72px;

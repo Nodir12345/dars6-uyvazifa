@@ -1,5 +1,5 @@
 .herro-box{
-  background-image: url(../../img/herro_img.png);
+  background-image: url(../img/herro_img.png);
  margin-top: 138px;
  border-radius: 8px;
  background-repeat: no-repeat;
@@ -33,7 +33,7 @@ margin-bottom: 56px;
 @media screen and (max-width:950px) {
   .herro-box{
    background-position-x: right;
-   background-image:url(../../img/bigmap2.jpg) ;
+   background-image:url(../img/bigmap2.jpg) ;
    background-size: cover;
    padding-left: 35px;
   }
